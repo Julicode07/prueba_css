@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.animaciones {
+    display: flex;
+}
+
+.animacion1 {
+    display: flex;
+    margin: 200px auto;
+    background-color: #EFF305;
+    width: 20%;
+    height: 300px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 90px;
+}
+
+.animacion1:hover {
+    transform: scale(1.03);
+    background-color: #2ED60C;
+}
+
+.animacion2 {
+    display: flex;
+    margin: 200px auto;
+    background-color: #0b5cf1;
+    width: 20%;
+    height: 300px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 90px;
+}
+
+.animacion2:hover {
+    transform: scale(1.03);
+    background-color: #ee3717;
+}
